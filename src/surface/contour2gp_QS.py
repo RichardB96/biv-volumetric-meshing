@@ -1584,8 +1584,6 @@ def main():
                     (lv_endo_contour, lv_epi_contour, rv_septum_contour, rv_free_wall_contour,
                      mv_left, mv_right, tv_left, tv_right, apex) = lax_4ch_contours_and_landmarks
 
-                    print('HERE! ')
-                    print(tv_left, tv_right)
                     # # Visualization for DEBUG: 4Ch LV, RV contours
                     # plt.imshow(lax_4ch_seg)
                     # plt.scatter(lv_endo_contour[:, 1], lv_endo_contour[:, 0], marker="x",
